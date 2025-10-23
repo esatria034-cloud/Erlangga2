@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Satria</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-color: #4b00d7;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav {
+            background-color: #333;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ffd700;
+        }
+        main {
+            padding: 20px;
+            background-color: white;
+            margin: 20px;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #0400d7;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Selamat Datang di Website Satria</h1>
+        <p>Belajar HTML itu menyenangkan jika sudah pandai</p>
+    </header>
+
+    <nav>
+        <a href="#">Beranda</a>
+        <a href="#">Tentang</a>
+        <a href="#">Galeri</a>
+        <a href="#">Kontak</a>
+    </nav>
+
+    <main>
+        <h2>Tentang Website Ini</h2>
+        <p>
+            Ini adalah contoh website sederhana yang dibuat hanya dengan menggunakan HTML dan sedikit CSS.
+            Website ini berisi struktur dasar seperti header, navigasi, isi utama, dan footer.
+        </p>
+
+        <h3>Fitur Website:</h3>
+        <ul>
+            <li>Desain responsif dan rapi</li>
+            <li>Navigasi menu sederhana</li>
+            <li>Konten informatif</li>
+        </ul>
+
+        <img src="https://via.placeholder.com/600x300" alt="Contoh gambar" style="width:100%; border-radius:10px;">
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Satria Erlangga. Semua Hak Dilindungi.</p>
+    </footer>
+
+</body>
+</html>
